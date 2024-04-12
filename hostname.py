@@ -51,7 +51,7 @@ class hostname:
     def change_admin_password(self, domain:bool):
         
         if domain == False:
-            command = f"net user administrador G3st10nT1! "
+            command = f"net user administrator 123456789 "
             subprocess.run(command, shell=True, check=True)
 
 
