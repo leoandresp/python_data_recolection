@@ -1,4 +1,0 @@
-google_api_python_client==2.116.0
-protobuf==5.26.0
-PyAutoGUI==0.9.54
-WMI==1.5.1

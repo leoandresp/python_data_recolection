@@ -1,5 +1,0 @@
-Cambiar nombre del Equipo
-Algunos datos pendientes: Anydesk, hostname.
-Borrar archivos al finalizar todo correctamente.
-Cambiar la formacion de los textos de Provincia
-Realizar pruebas requeridas
