@@ -111,7 +111,7 @@ if "%proveedor%"=="1" (
 REM Pregunta H
 :pregunta_h
 set /p etiqueta_proveedor="Ingrese el código de la etiqueta del proveedor: "
-echo etiqueta_proveedir:%etiqueta_proveedor% >> respuestas.txt
+echo etiqueta_proveedor:%etiqueta_proveedor% >> respuestas.txt
 
 REM Pregunta I: Ubicacion
 :pregunta_i
