@@ -82,8 +82,8 @@ try:
     new_hostname = this_pc.create_name(mac_lan)
     finalData.append(new_hostname)
     
-    #this_pc.change_hostname(new_hostname)
-    #this_pc.change_admin_password(domain)
+    this_pc.change_hostname(new_hostname)
+    this_pc.change_admin_password(domain)
     
     #Agregamos el espacio en disco
     disk = generalInformation.get_disk_memory()
