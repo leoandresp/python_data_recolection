@@ -26,10 +26,14 @@ try:
     finalData.append(current_date)
     # Añadimos los primeros 5 elementos
     
-    firstElements = ["Nombre y Apellido", "DNI", "Telefono", "Funciones", "Equipo", "Proveedor"]
+    firstElements = ["Nombre y Apellido", "DNI", "Telefono", "Funciones", "Equipo", "Proveedor","etiqueta_proveedor"]
     for i in firstElements:
         data = generalInformation.getLineAndWord(i)
         finalData.append(data)
+
+    #Agregamos la ip del Equipo
+    ip_information = generalInformation.getIP()
+    finalData.append(ip_information)
 
     # Buscamos los datos de Red
     redLineInit = generalInformation.getLine("Info de Red")
@@ -78,8 +82,8 @@ try:
     new_hostname = this_pc.create_name(mac_lan)
     finalData.append(new_hostname)
     
-    this_pc.change_hostname(new_hostname)
-    this_pc.change_admin_password(domain)
+    #this_pc.change_hostname(new_hostname)
+    #this_pc.change_admin_password(domain)
     
     #Agregamos el espacio en disco
     disk = generalInformation.get_disk_memory()

@@ -104,6 +104,21 @@ class information:
             return processor_data[3]
         except Exception as e:
             pyautogui.alert(f'Ha ocurrido mun error: {str(e)}')
+    
+    def getIP(self):
+        try:
+            ip_line = self.getLine("IPv4")
+            ip_info = self.info[ip_line]
+            print(ip_info)
+            expresion_regular = r"^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
+            ips = re.findall(expresion_regular,ip_info)
+            if ips == []:
+                return "IP no asignada."
+            else:
+                ips = ', '.join(ips)
+                return ips
+        except Exception as e:
+            pyautogui.alert(f'Ha ocurrido mun error: {str(e)}')
 
 
                          

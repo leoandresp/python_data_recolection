@@ -1,0 +1,105 @@
+Nombre de host:                            LP2ANCHSC-00FF1
+Nombre del sistema operativo:              Microsoft Windows 11 Home
+Versión del sistema operativo:             10.0.22631 N/D Compilación 22631
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuración del sistema operativo:       Estación de trabajo independiente
+Tipo de compilación del sistema operativo: Multiprocessor Free
+Id. del producto:                          00325-82006-58864-AAOEM
+Tiempo de arranque del sistema:            16/04/2024, 08:45:59 a. m.
+Fabricante del sistema:                    HP
+Modelo el sistema:                         HP Laptop 15-dy2xxx
+Tipo de sistema:                           x64-based PC
+                                           [01]: Intel64 Family 6 Model 140 Stepping 1 GenuineIntel ~2400 Mhz
+Versión del BIOS:                          AMI F.33, 04/10/2023
+Directorio de sistema:                     C:\WINDOWS\system32
+Configuración regional del sistema:        en-us;Inglés (Estados Unidos)
+                                                 Nombre de conexión: Ethernet 2
+                                                 Nombre de conexión: Wi-Fi
+Nombre y Apellido:Leo 
+DNI:25126547 
+Telefono:04125345542 
+Funciones:Operaciones 
+Equipo:Laptop 
+Propiedad:Hildmarc 
+Proveedor:FALCON 
+etiqueta_proveedor:mlk890 
+Sede:San Isidro 
+Piso:2 
+Info de Red: 
+
+Configuraci n IP de Windows
+
+   Nombre de host. . . . . . . . . : LP2ANCHSC-00FF1585B248
+   Sufijo DNS principal  . . . . . : 
+   Tipo de nodo. . . . . . . . . . : mixto
+   Enrutamiento IP habilitado. . . : no
+   Proxy WINS habilitado . . . . . : no
+
+Adaptador de LAN inal mbrica Local Area Connection* 1:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+   Descripci n . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Direcci n f sica. . . . . . . . . . . . . : A6-97-B1-11-CB-97
+   DHCP habilitado . . . . . . . . . . . . . : s 
+   Configuraci n autom tica habilitada . . . : s 
+
+Adaptador de LAN inal mbrica Local Area Connection* 2:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+   Descripci n . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Direcci n f sica. . . . . . . . . . . . . : E6-97-B1-11-CB-97
+   DHCP habilitado . . . . . . . . . . . . . : no
+   Configuraci n autom tica habilitada . . . : s 
+
+Adaptador de Ethernet Ethernet 2:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec fico para la conexi n. . : 
+   Descripci n . . . . . . . . . . . . . . . : TAP-Windows Adapter V9
+   Direcci n f sica. . . . . . . . . . . . . : 00-FF-15-85-B2-48
+   DHCP habilitado . . . . . . . . . . . . . : no
+   Configuraci n autom tica habilitada . . . : s 
+
+Adaptador de LAN inal mbrica Wi-Fi:
+
+   Sufijo DNS espec fico para la conexi n. . : 
+   Descripci n . . . . . . . . . . . . . . . : Realtek RTL8821CE 802.11ac PCIe Adapter
+   Direcci n f sica. . . . . . . . . . . . . : A4-97-B1-11-CB-97
+   DHCP habilitado . . . . . . . . . . . . . : s 
+   Configuraci n autom tica habilitada . . . : s 
+   V nculo: direcci n IPv6 local. . . : fe80::b4b8:98d6:a4c2:193d%2(Preferido) 
+   Direcci n IPv4. . . . . . . . . . . . . . : 192.168.3.116(Preferido) 
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Concesi n obtenida. . . . . . . . . . . . : martes, 16 de abril de 2024 08:46:30 a. m.
+   La concesi n expira . . . . . . . . . . . : martes, 16 de abril de 2024 11:52:40 a. m.
+   Puerta de enlace predeterminada . . . . . : 192.168.3.1
+   Servidor DHCP . . . . . . . . . . . . . . : 192.168.3.1
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 44341169
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-2A-B5-D8-F5-A4-97-B1-11-CB-97
+   Servidores DNS. . . . . . . . . . . . . . : 192.168.3.1
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+Se registrar n las nuevas conexiones.
+
+No hay entradas en la lista.
+
+La ID de AnyDesk es:918242042 
+Memoria RAM: 
+C a p a c i t y         
+ 
+ 4 2 9 4 9 6 7 2 9 6     
+ 
+ 4 2 9 4 9 6 7 2 9 6     
+ 
+ Espacio en Disco Duro: 
+S i z e                     
+ 
+ 2 5 2 8 9 2 4 0 9 8 5 6     
+ 
+ Modelo del Procesador 
+N a m e                                                                                         
+ 
+ 1 1 t h   G e n   I n t e l ( R )   C o r e ( T M )   i 5 - 1 1 3 5 G 7   @   2 . 4 0 G H z     
+ 
+ 

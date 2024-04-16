@@ -68,9 +68,11 @@ set /p propiedad="Respuesta: "
 if "%propiedad%"=="1" (
     set propiedad_text="Hildmarc"
     echo Propiedad:Hildmarc >> respuestas.txt
+    goto pregunta_g
 ) else if "%propiedad%"=="2" (
     set propiedad_text="Personal"
     echo Propiedad:Personal >> respuestas.txt
+    goto pregunta_i
 ) else (
     echo Opcion invalida. Por favor, ingrese un numero valido de opcion.
     goto pregunta_f
@@ -106,8 +108,13 @@ if "%proveedor%"=="1" (
 )
 
 
-REM Pregunta H: Ubicacion
+REM Pregunta H
 :pregunta_h
+set /p etiqueta_proveedor="Ingrese el código de la etiqueta del proveedor: "
+echo etiqueta_proveedir:%etiqueta_proveedor% >> respuestas.txt
+
+REM Pregunta I: Ubicacion
+:pregunta_i
 echo H. Escoja la sede/ubicacion donde realiza sus actividades (Ingrese el numero de la opcion):
 echo 1. Independencia
 echo 2. San Isidro
@@ -132,7 +139,7 @@ if "%ubicacion%"=="1" (
     goto pregunta_cartera
 ) else (
     echo Opcion invalida. Por favor, ingrese un numero valido de opcion.
-    goto pregunta_h
+    goto pregunta_i
 )
 
 REM Pregunta del Independencia - Comun para opciones 1 y 2

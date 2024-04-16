@@ -18,7 +18,7 @@ def set_googleSheets(info):
     # Construye la ruta completa del archivo key.json
     ruta_key = os.path.join(directorio_actual, 'key.json')
     KEY = ruta_key
-    SPREADSHEET_ID = ''
+    SPREADSHEET_ID = '117nGNJUADJKlB8sr3tCAkCvSjvN3kGHB0uhzyAxH0yw'
 
     try:
         creds = None
