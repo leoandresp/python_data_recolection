@@ -193,7 +193,7 @@ net use >> respuestas.txt
 for /f "delims=" %%i in ('"C:\Program Files (x86)\AnyDesk\AnyDesk.exe" --get-id') do set ID=%%i
 echo La ID de AnyDesk es:%ID% >> respuestas.txt
 echo Memoria RAM: >> respuestas.txt
-wmic memorychip get capacity >> respuestas.txt
+wmic memorychip get capacity /format:list >> respuestas.txt
 echo Espacio en Disco Duro: >> respuestas.txt
 wmic logicaldisk where "DeviceID='C:'" get Size >> respuestas.txt
 echo Modelo del Procesador >> respuestas.txt
